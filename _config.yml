@@ -1,0 +1,40 @@
+baseurl: ""
+url: "https://seuusuario.github.io"
+
+# GitHub Pages configuration
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+title: "TechStore - Equipamentos Eletrônicos"
+description: "A melhor loja de equipamentos eletrônicos de São José do Rio Preto. Celulares, câmeras, mouse e muito mais!"
+lang: pt-BR
+
+# Social media
+social:
+  name: TechStore
+  links:
+    - https://wa.me/5517981256580
+
+# Contact info
+address: "Rua Abraão Tomé, 661, São José do Rio Preto - SP"
+phone: "(17) 98125-6580"
+
+# Business info
+business:
+  name: "TechStore"
+  type: "ElectronicsStore"
+  priceRange: "$$"
+  address:
+    streetAddress: "Rua Abraão Tomé, 661"
+    addressLocality: "São José do Rio Preto"
+    addressRegion: "SP"
+    addressCountry: "BR"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock

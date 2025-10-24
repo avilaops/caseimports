@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Equipamentos Eletrônicos | São José do Rio Preto</title>
+    <meta name="description" content="A melhor loja de equipamentos eletrônicos de São José do Rio Preto. Celulares, câmeras, mouse e muito mais com os melhores preços!">
+    <meta name="keywords" content="eletrônicos, celulares, câmeras, mouse, São José do Rio Preto, tecnologia">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TechStore - Equipamentos Eletrônicos">
+    <meta property="og:description" content="A melhor loja de equipamentos eletrônicos de São José do Rio Preto">
+    <meta property="og:url" content="https://seuusuario.github.io/techstore/">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="TechStore - Equipamentos Eletrônicos">
+    <meta property="twitter:description" content="A melhor loja de equipamentos eletrônicos de São José do Rio Preto">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI0ZGNkIwMCIvPgo8cGF0aCBkPSJNOCAxMkg0VjE2SDhWMTJaTTI0IDEySDIwVjE2SDI0VjEyWk0xNiA4SDEyVjEySDEyVjEyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiByeD0iMjAiIGZpbGw9IiNGRjZCMDAiLz4KPHN2ZyB4PSI0NSIgeT0iNDUiIHdpZHRoPSI5MCIgaGVpZ2h0PSI5MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xNS4xMyAzLjk4QzE2LjE0IDUuMjYgMTYuNCA2Ljk2IDE1LjcgOC4yOUwxMy45IDEyTDE2IDEyQzE3LjEwNDYgMTIgMTggMTIuODk1NCAxOCAxNFYxOEMxOCAxOS4xMDQ2IDE3LjEwNDYgMjAgMTYgMjBIOEMzLjU4IDIwIDAgMTYuNDIgMCAxMlM5IDQgMTJDMTMuNjUgNCAxNS4xMyAzLjk4IDE1LjEzIDMuOThaTTYgMTRIMTJWMTZINlYxNFpNNiAxMEgxMlYxMkg2VjEwWk0xMiA2SDZWOEgxMlY2WiIvPgo8L3N2Zz4KPC9zdmc+">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#FF6B00">
+    <meta name="msapplication-TileColor" content="#FF6B00">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1><i class="fas fa-bolt"></i> TechStore</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="#produtos" class="nav-link">Produtos</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <a href="https://wa.me/5517981256580?text=Olá! Gostaria de conhecer os produtos da TechStore" 
+                       class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Os Melhores Equipamentos Eletrônicos de 
+                    <span class="highlight">São José do Rio Preto</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Celulares, câmeras, mouse e muito mais! Qualidade garantida e preços imbatíveis.
+                    Sua tecnologia está aqui!
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5517981256580?text=Olá! Quero conhecer os produtos da TechStore com os melhores preços!" 
+                       class="btn btn-primary btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Ver Ofertas no WhatsApp
+                    </a>
+                    <a href="#produtos" class="btn btn-secondary btn-large">
+                        <i class="fas fa-mobile-alt"></i> Ver Produtos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Produtos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Clientes Satisfeitos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5★</div>
+                        <div class="stat-label">Avaliação</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="camera-mockup">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="mouse-mockup">
+                    <i class="fas fa-mouse"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Produtos em Destaque</h2>
+                <p>Equipamentos de alta qualidade com os melhores preços da região</p>
+            </div>
+            
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <div class="produto-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Smartphones</h3>
+                    <p>Últimos lançamentos das melhores marcas. iPhone, Samsung, Xiaomi e muito mais!</p>
+                    <ul class="produto-features">
+                        <li><i class="fas fa-check"></i> Garantia oficial</li>
+                        <li><i class="fas fa-check"></i> Parcelamento sem juros</li>
+                        <li><i class="fas fa-check"></i> Assistência técnica</li>
+                    </ul>
+                    <a href="https://wa.me/5517981256580?text=Olá! Gostaria de ver os smartphones disponíveis" 
+                       class="btn btn-produto" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Ver Modelos
+                    </a>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Câmeras</h3>
+                    <p>Câmeras profissionais e semi-profissionais para capturar seus melhores momentos.</p>
+                    <ul class="produto-features">
+                        <li><i class="fas fa-check"></i> Canon, Nikon, Sony</li>
+                        <li><i class="fas fa-check"></i> Acessórios inclusos</li>
+                        <li><i class="fas fa-check"></i> Suporte técnico</li>
+                    </ul>
+                    <a href="https://wa.me/5517981256580?text=Olá! Quero conhecer as câmeras disponíveis" 
+                       class="btn btn-produto" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Ver Câmeras
+                    </a>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-icon">
+                        <i class="fas fa-mouse"></i>
+                    </div>
+                    <h3>Periféricos</h3>
+                    <p>Mouse, teclados, headsets e todos os periféricos para gamers e profissionais.</p>
+                    <ul class="produto-features">
+                        <li><i class="fas fa-check"></i> Marcas premium</li>
+                        <li><i class="fas fa-check"></i> Gaming e profissional</li>
+                        <li><i class="fas fa-check"></i> Garantia estendida</li>
+                    </ul>
+                    <a href="https://wa.me/5517981256580?text=Olá! Gostaria de ver os periféricos disponíveis" 
+                       class="btn btn-produto" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Ver Periféricos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que escolher a TechStore?</h2>
+                <p>Sua satisfação é nossa prioridade</p>
+            </div>
+            
+            <div class="diferenciais-grid">
+                <div class="diferencial-item">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos em toda São José do Rio Preto com agilidade e segurança</p>
+                </div>
+
+                <div class="diferencial-item">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantia Total</h3>
+                    <p>Todos os produtos com garantia oficial do fabricante</p>
+                </div>
+
+                <div class="diferencial-item">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Parcelamento</h3>
+                    <p>Parcele suas compras no cartão sem juros ou no boleto</p>
+                </div>
+
+                <div class="diferencial-item">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Assistência Técnica</h3>
+                    <p>Suporte técnico especializado para todos os produtos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para encontrar a tecnologia perfeita?</h2>
+                <p>Entre em contato agora e descubra nossas ofertas exclusivas!</p>
+                <a href="https://wa.me/5517981256580?text=Olá! Quero conhecer as ofertas da TechStore!" 
+                   class="btn btn-cta btn-large" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Falar com Especialista
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Estamos aqui para ajudar você</p>
+            </div>
+            
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contato-details">
+                            <h3>Endereço</h3>
+                            <p>Rua Abraão Tomé, 661<br>São José do Rio Preto - SP</p>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contato-details">
+                            <h3>WhatsApp</h3>
+                            <p>(17) 98125-6580</p>
+                            <a href="https://wa.me/5517981256580" target="_blank" class="whatsapp-link">
+                                Enviar mensagem
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contato-details">
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda à Sexta: 8h às 18h<br>Sábado: 8h às 16h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-form">
+                    <h3>Envie sua mensagem</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="produto" required>
+                                <option value="">Produto de interesse</option>
+                                <option value="smartphones">Smartphones</option>
+                                <option value="cameras">Câmeras</option>
+                                <option value="perifericos">Periféricos</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" placeholder="Sua mensagem" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-form">
+                            <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-bolt"></i> TechStore</h3>
+                    <p>A melhor loja de equipamentos eletrônicos de São José do Rio Preto. Qualidade, garantia e os melhores preços!</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Abraão Tomé, 661</p>
+                    <p><i class="fab fa-whatsapp"></i> (17) 98125-6580</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Produtos</h4>
+                    <ul>
+                        <li>Smartphones</li>
+                        <li>Câmeras</li>
+                        <li>Periféricos</li>
+                        <li>Acessórios</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechStore. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5517981256580?text=Olá! Gostaria de conhecer os produtos da TechStore" 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "TechStore - Equipamentos Eletrônicos",
+  "short_name": "TechStore",
+  "description": "A melhor loja de equipamentos eletrônicos de São José do Rio Preto",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FF6B00",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiNGRjZCMDAiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xNS4xMyAzLjk4QzE2LjE0IDUuMjYgMTYuNCA2Ljk2IDE1LjcgOC4yOUwxMy45IDEyTDE2IDEyQzE3LjEwNDYgMTIgMTggMTIuODk1NCAxOCAxNFYxOEMxOCAxOS4xMDQ2IDE3LjEwNDYgMjAgMTYgMjBIOEMzLjU4IDIwIDAgMTYuNDIgMCAxMlM5IDQgMTJDMTMuNjUgNCAxNS4xMyAzLjk4IDE1LjEzIDMuOThaTTYgMTRIMTJWMTZINlYxNFpNNiAxMEgxMlYxMkg2VjEwWk0xMiA2SDZWOEgxMlY2WiIvPgo8L3N2Zz4KPC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiNGRjZCMDAiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTUuMTMgMy45OEMxNi4xNCA1LjI2IDE2LjQgNi45NiAxNS43IDguMjlMMTMuOSAxMkwxNiAxMkMxNy4xMDQ2IDEyIDE4IDEyLjg5NTQgMTggMTRWMThDMTggMTkuMTA0NiAxNy4xMDQ2IDIwIDE2IDIwSDhDMy41OCAyMCAwIDE2LjQyIDAgMTJTOSA0IDEyQzEzLjY1IDQgMTUuMTMgMy45OCAxNS4xMyAzLjk4Wk02IDE0SDEyVjE2SDZWMTRaTTYgMTBIMTJWMTJINlYxMFpNMTIgNkg2VjhIMTJWNloiLz4KPC9zdmc+Cjwvc3ZnPg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["shopping", "business"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI3MjAiIHZpZXdCb3g9IjAgMCAxMjgwIDcyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iNzIwIiBmaWxsPSIjMDAwMDAwIi8+Cjx0ZXh0IHg9IjY0MCIgeT0iMzYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjRkY2QjAwIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPgpUZWNoU3RvcmUKPC90ZXh0Pgo8L3N2Zz4=",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ]
+}
