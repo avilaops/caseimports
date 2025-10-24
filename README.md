@@ -1,4 +1,4 @@
-# TechStore - Landing Page
+# CASE IMPORTS - Landing Page
 
 Landing page para loja de equipamentos eletrônicos em São José do Rio Preto.
 
@@ -31,7 +31,7 @@ Landing page para loja de equipamentos eletrônicos em São José do Rio Preto.
 
 ## 🏪 Informações da Loja
 
-**TechStore**
+**CASE IMPORTS**
 - **Endereço:** Rua Abraão Tomé, 661 - São José do Rio Preto - SP
 - **WhatsApp:** (17) 98125-6580
 - **Produtos:** Smartphones, Câmeras, Periféricos e Acessórios
@@ -104,4 +104,4 @@ Para dúvidas sobre a implementação, entre em contato através do WhatsApp: (1
 
 ---
 
-**Desenvolvido para TechStore - São José do Rio Preto** 🛒⚡
+**Desenvolvido para CASE IMPORTS - São José do Rio Preto** 🛒⚡

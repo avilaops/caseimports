@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://seuusuario.github.io"
+url: "https://caseimports.avila.inc"
 
 # GitHub Pages configuration
 plugins:
@@ -7,13 +7,13 @@ plugins:
   - jekyll-seo-tag
 
 # SEO settings
-title: "TechStore - Equipamentos Eletrônicos"
+title: "CASE IMPORTS - Equipamentos Eletrônicos"
 description: "A melhor loja de equipamentos eletrônicos de São José do Rio Preto. Celulares, câmeras, mouse e muito mais!"
 lang: pt-BR
 
 # Social media
 social:
-  name: TechStore
+  name: CASE IMPORTS
   links:
     - https://wa.me/5517981256580
 
@@ -23,7 +23,7 @@ phone: "(17) 98125-6580"
 
 # Business info
 business:
-  name: "TechStore"
+  name: "CASE IMPORTS"
   type: "ElectronicsStore"
   priceRange: "$$"
   address:

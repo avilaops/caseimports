@@ -50,7 +50,7 @@ if (contactForm) {
             whatsappMessage += `💬 Mensagem: ${mensagem}\n`;
         }
         
-        whatsappMessage += `\nGostaria de conhecer mais sobre os produtos da TechStore!`;
+        whatsappMessage += `\nGostaria de conhecer mais sobre os produtos da CASE IMPORTS!`;
         
         // Codificar mensagem para URL
         const encodedMessage = encodeURIComponent(whatsappMessage);
@@ -310,7 +310,7 @@ function optimizeForMobile() {
 
 // Inicializar todas as funcionalidades quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('TechStore Landing Page carregada!');
+    console.log('CASE IMPORTS Landing Page carregada!');
     
     // Inicializar funcionalidades
     animateOnScroll();

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'techstore-v1';
+const CACHE_NAME = 'caseimports-v1';
 const urlsToCache = [
   '/',
   '/styles.css',
